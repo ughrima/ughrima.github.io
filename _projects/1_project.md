@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: GDSC UPES 
+description: Created the official website for GDSC UPES.
+img: assets/img/7.jpg
 importance: 1
-category: work
+category: Web Development
 related_publications: true
 ---
 

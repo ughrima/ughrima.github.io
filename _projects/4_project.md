@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Identity Gaurd
+description: Facial Recognition system aimed at capturing and recognising user's face and diplaying their name.
+img: assets/img/6.jpg
+importance: 
+category: Other 
 ---
 
 Every project has a beautiful feature showcase page.

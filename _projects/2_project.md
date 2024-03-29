@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Personal Portfolio
+description: My portfolio website showcasing my skills and achievements in a visually captivating manner
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: Web Development
 giscus_comments: true
 ---
 
