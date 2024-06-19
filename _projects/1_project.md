@@ -1,81 +1,84 @@
 ---
+
 layout: page
 title: GDSC UPES 
-description: Created the official website for GDSC UPES.
+description: Official website for GDSC UPES showcasing events, team, and initiatives.
 img: assets/img/7.jpg
 importance: 1
 category: Web Development
-related_publications: true
+related_publications: false
+
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## GDSC UPES Official Website
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Overview
+The official website for the Google Developer Student Club (GDSC) at UPES, designed to provide information about the club's goals, events, team, and frequently asked questions. The website is built using modern web technologies to ensure a smooth and interactive user experience.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Technologies Used
+- **ReactJS**: For building a dynamic and responsive user interface.
+- **Tailwind CSS**: For styling the components with a highly customizable and utility-first framework.
+
+### GitHub Repository
+Explore the source code and contribute to the project on GitHub:
+<a href="https://github.com/ughrima/GDSC-UPES-Website" class="btn btn-primary" target="_blank">View on GitHub</a>
+
+### Website Features
+- **Home Page**: Introduction to GDSC UPES, its mission, and objectives.
+- **Events Page**: Detailed information about past and upcoming events organized by the club.
+- **Team Page**: Profiles of the core team members with their roles and contact information.
+- **Dark Mode**: A toggle option for switching between light and dark themes for a comfortable viewing experience.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="/assets/img/gdsc/img2.png" title="Goals Section" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/gdsc/img1.png" title="About Us Section" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/gdsc/img3.png" title="FAQ Section" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+   From left to right: Goals, About Us, and FAQ Sections
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gdsc/home.png" title="Landing Page" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Landing Page
+</div>
+
+### Additional Highlights
+The website is designed with user experience in mind, offering a clean layout and easy navigation. It includes:
+
+- **Responsive Design**: Ensuring compatibility across different devices and screen sizes.
+- **Interactive Elements**: Engaging components to enhance user interaction.
+- **Fast Load Times**: Optimized for quick access to information.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/gdsc/img5.png" title="Events Section" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/gdsc/img12.png" title="Team Section" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gdsc/dark.png" title="Dark Mode" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Dark Mode
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Conclusion
+The GDSC UPES website serves as a central hub for students and members to stay updated on the club's activities and initiatives. With a focus on modern design and functionality, the website enhances the visibility and accessibility of GDSC UPES.
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+---

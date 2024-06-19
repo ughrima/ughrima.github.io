@@ -2,96 +2,84 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Agrima Jain
+    - name: Label
+      value: Computer Science Student
+    - name: Email
+      value: agrimajain223@gmail.com
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.Tech in Computer Science and Engineering
+      institution: University of Petroleum and Energy Studies (UPES), Dehradun, Uttrakhand, IN
+      year: 2022 - 2026
+      title : Relevant Coursework
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Databse Management Systems 
+        - Operating Systems 
+        - Machine Learning 
+        - Introduction to Artificial Intelligence 
+        - Design and Analysis of Algorithms 
+        - Data Structures and Algorithms 
+        - Computer System Architecture
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: University of Petroleum and Energy Studies (UPES), Dehradun, Uttrakhand, IN
+      year: 2024 - ongoing
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Collaborated with Dr. Muthukumar K A on developing Simultaneous Localization and Mapping (SLAM) algorithms using ROS noetic framework and Lidar 515 sensor data.
+        - Refining and optimizing SLAM algorithms for enhanced mapping accuracy and real-time performance.
+        - Planning integration with neural networks for object detection.
+    - title: Software Engineer Intern
+      institution: 1EQ Foundation
+      year: 2024 - ongoing
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Developing a healthcare product for provider credentialing, involving document verification using OCR technology.
+        - Learning Spring Framework for Java to enhance backend development and application integration.
+    - title: Data Analyst Intern
+      institution: CodeClause
+      year: 2024
       description:
+        - Developed a model to predict employee attrition using HR data.
+        - Built classification models for predicting employee turnover.
+        - Designed a Streamlit web app for health metric input and risk prediction of heart disease.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python
+        - Java
+        - HTML/CSS
+    - title: Technologies/Frameworks
       items:
-        - Description 1.
-        - Description 2.
+        - ReactJs
+        - Tailwind
+        - MongoDB
+        - Node
+    - title: Design Tools
+      items:
+        - Adobe Photoshop
+        - Adobe Premiere Pro
+    - title: Operating Systems
+      items:
+        - Linux
+        - Windows
+    - title: Database
+      items:
+        - SQL
 
-- title: Other Interests
-  type: list
+- title: Achievements
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: 
+      items:
+        - Hackathon Finalist - Made it to the top 15 teams out of 100 teams in Hackathon 7.0 (UPES-CSI)
+        - Coding Challenge Winner - Won 10-day coding challenge during Open Learning Program (Open Community)
+        - Poster Presentation 3rd Prize - Won 3rd prize in Poster Presentation competition during IBM Ice Day (UPES)

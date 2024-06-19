@@ -2,9 +2,9 @@
 layout: page
 title: Identity Gaurd
 description: Facial Recognition system aimed at capturing and recognising user's face and diplaying their name.
-img: assets/img/6.jpg
+img: assets/img/6.png
 importance: 
-category: Other 
+category: Python
 ---
 
 Every project has a beautiful feature showcase page.

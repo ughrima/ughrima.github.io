@@ -5,7 +5,7 @@ permalink: /projects/
 description: Checkout some cool projects made by me.
 nav: true
 nav_order: 3
-display_categories: [Web Development, Other]
+display_categories: [Machine Learning, Python, Web Development,Other]
 horizontal: false
 ---
 

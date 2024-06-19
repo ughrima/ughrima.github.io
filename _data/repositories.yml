@@ -1,12 +1,10 @@
 github_users:
   - ughrima
 
-
 github_repos:
-  - Identity-Gaurd
-  - https://github.com/ughrima/Wander-Wise
-  - GDSC-UPES-Website
-  - TechConnect-2.0
-  - Open-Certification_
-  - Weather-Prediction
-
+  - ughrima/Slam_Rviz
+  - ughrima/Identity-Gaurd
+  - ughrima/music-genre-recommendation
+  - ughrima/Graph_summarizer
+  - ughrima/Bloxorz
+  - ughrima/Book-Recommendation
