@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ughrima.github.io/sitemap.xml
+Sitemap: https://agrimajain# the base hostname & protocol for your site/sitemap.xml
