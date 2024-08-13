@@ -41,13 +41,6 @@
       description:
         - Developing a healthcare product for provider credentialing, involving document verification using OCR technology.
         - Learning Spring Framework for Java to enhance backend development and application integration.
-    - title: Data Analyst Intern
-      institution: CodeClause
-      year: 2024
-      description:
-        - Developed a model to predict employee attrition using HR data.
-        - Built classification models for predicting employee turnover.
-        - Designed a Streamlit web app for health metric input and risk prediction of heart disease.
 
 - title: Skills
   type: nested_list
